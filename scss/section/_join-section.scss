@@ -1,0 +1,56 @@
+.join-section {
+    margin: 130rem 0;
+    border-radius: 10px;
+    background: var(--bg-secondary);
+    padding: 80rem;
+
+    @include mobile {
+        padding: 80rem 20rem;
+    }
+
+
+    &__title {
+        color: var(--c-text-white);
+        font-size: 36rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 47rem;
+    }
+
+    &__subscribe {
+        max-width: 717rem;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 50px;
+        gap: 10rem;
+        padding: 10rem 15rem;
+        background: var(--c-terciary);
+
+        @include tablet {
+            flex-direction: column;
+            gap: 30rem;
+            background: transparent;
+
+            .join-section__input {
+                border-radius: 50px;
+                padding: 10rem 15rem;
+                background: var(--c-terciary);
+            }
+        }
+        
+
+    }
+
+    &__input {
+        padding-left: 16rem;
+        width: 100%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+      
+    }
+
+}
+

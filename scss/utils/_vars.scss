@@ -1,0 +1,23 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+$footer-height: 500px;
+$c-primary:  #8842F0;
+
+:root {
+	--ff: 'Work Sans', sans-serif;
+	--transition: .2s all ease-in-out;
+
+	--c-primary: #8842F0;
+	--c-text-white: #fff;
+	--c-border: #eee;
+	--c-black: #000;
+	--c-paragraph: #262626;
+	--c-terciary:#F9F1FE;
+	--c-text: #575757;
+	--c-terciary:#F9F1FE;
+	--bg-secondary:#1C1B1F;
+}

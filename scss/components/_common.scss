@@ -1,0 +1,46 @@
+.title {
+    color: var(--c-paragraph);
+font-size: 48rem;
+font-weight: 700;
+margin-bottom: 70rem;
+text-align: center;
+margin-top: 111rem;
+}
+
+.desc {
+    color: var(--paragraph);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+max-width: 837rem;
+margin-inline: auto;
+margin-bottom: 123rem;
+}
+
+.btn {
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    padding: 11rem 49rem;
+    color: var(--c-terciary);
+    font-size: 20rem;
+    font-weight: 600;
+    transition: var(--transition);
+    @include mobile {
+        font-size: 16rem;
+    }
+
+
+
+    &._primary {
+        background: var(--c-primary);
+
+        &:hover {
+            background: darken($c-primary,10%);
+        }
+
+    }
+
+}

@@ -1,0 +1,59 @@
+.footer {
+    background: var(--c-terciary);
+    padding: 106rem 12rem 81rem 12rem;
+
+
+
+
+    &__container {
+        display:flex;
+        gap: 108rem;
+        @include desktop-small {
+            gap: 20rem;
+        }
+        @include tablet {
+            flex-direction: column;
+        }
+
+    }
+
+    &__logo {
+        display: inline-block;
+        color: var(--c-paragraph);
+        font-size: 24rem;
+        font-weight: 600;
+        margin-bottom: 26rem;
+
+    }
+
+    &__desc {
+        color: var(--c-paragraph);
+        font-size: 16rem;
+        font-weight: 400;
+        max-width: 431rem;
+    }
+
+    &__info-header, &__hours-header {
+        color: var(--c-paragraph);
+        font-size: 20rem;
+        font-weight: 600;
+        margin-bottom: 9px;
+    }
+
+    &__info-value, &__hours-value {
+        margin-bottom: 37rem;
+        color: var(--c-paragraph);
+        font-size: 16rem;
+        font-weight: 400;
+        display: inline-flex;
+        gap: 16px;
+    }
+
+    &__hours-value {
+        margin-bottom: 15rem;
+        display: grid;
+      
+    }
+ 
+
+}
